@@ -12,7 +12,7 @@ global:
   # TLS for end-to-end encrypted transport
   tlsDisable: true
   # If deploying to OpenShift
-  openshift: false
+  openshift: true
   # Create PodSecurityPolicy for pods
   psp:
     enable: false
