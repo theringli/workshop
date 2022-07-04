@@ -307,7 +307,7 @@ server:
   # OpenShift only - create a route to expose the service
   # By default the created route will be of type passthrough
   route:
-    enabled: false
+    enabled: true
 
     # When HA mode is enabled and K8s service registration is being used,
     # configure the route to point to the Vault active service.
